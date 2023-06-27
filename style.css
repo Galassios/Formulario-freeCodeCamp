@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family:Poppins; 
+  margin:0; 
+  }
+.demo-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.demo-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.demo-content {
+  position: relative;
+  color:white;
+}
+
+#title{
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+fieldset{
+  border:none;
+}
+
+#survey-form { background-color:#252544;
+  color:white;
+  width:550px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 5px;
+  border-style:none;
+  margin:auto;
+}
+
+#name, #email, #number, #dropdown, #area, #enviar {
+  display: block;
+  width: 100%;
+}
+
+#name, #email, #number, #dropdown { 
+  padding: 5px 0px 5px 5px;
+  border-radius: 5px;
+}
+#name, #email, #number, #dropdown > label {
+  margin-bottom:25px;
+}
+
+#submit {
+  display: block;
+  width:40%;
+  height:40px;
+  margin:auto;
+  margin-top:20px;
+  background-color:#37AF65;
+  color:white;
+  border:none;
+  
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="demo-wrap">
+        <img class="demo-bg"
+        src="https://img.freepik.com/fotos-gratis/mao-humana-digitando-no-teclado-do-computador-a-noite-gerada-por-ia_188544-31050.jpg?w=826&t=st=1686617428~exp=1686618028~hmac=c965f8d8890f5d19220119cb70202598057c2e5cd8b7453d6ae9a928ce36b834">
+        <div class="demo-content">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <fieldset >
+          <form id="survey-form">
+           <label for="name" id="name-label">Nome <input type="text" id="name" required placeholder="Insira o seu nome"></input></label>
+            <label for="email" id="email-label">E-mail <input type="email" id="email" placeholder="Insira o seu email" required></input></label>
+            <label for="number" id="number-label">Idade(opcional) <input type="number" id="number" placeholder="insira a sua idade" min="5" max="9">O que você está procurando</input></label>
+          <select id="dropdown"> 
+            <option>Estudar</option>
+            <option>Emprego</option>
+            <option>Carreira</option>
+            <option>Ainda não sabe</option>
+          </select>
+          <p>Recomendarias os cursos</p>
+          <label for="botao"><input type="radio"value="1" name="botao">Sim</input></label>
+          <label for="botao2"><input type="radio" value="2" name="botao">Não</input></label>
+          <p>Quais cursos você pretende fazer</p>
+          <label for="caixa"><input type="checkbox" name="caixa" value="0">HTML/CSS<br></input></label>
+          <label for="caixa1"><input type="checkbox" name="caixa1" value="1">JavaScript<br></input></label>
+          <label for="caixa2"><input type="checkbox" name="caixa2" value="2">Outros</input></label>
+          <p>Você tem alguma sugestão?</p>
+          <textarea id="area" rows="6" cols="30">
+          </textarea>
+          <label for="enviar"><input type="submit" name="enviar" id="submit"></input></label>
+          </form>
+        </fieldset>
+        </div>
+        </div>
+</body>
+</html>
